@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T02:37:53.456Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="YK9BUWrUlhq4-oRRXvkq" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-07T07:01:48.156Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="et6OYHyiMxJx3gdbr2Qf" version="21.0.2" type="github">
   <diagram name="Page-1" id="ov5w-oJEvnXDzye5x__X">
-    <mxGraphModel dx="538" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -79,7 +79,7 @@
             <mxPoint x="450" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-wWJylMkJj5rvpVHsZLc-34" value="buat transaksi pembayaran" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="-wWJylMkJj5rvpVHsZLc-34" value="input data transaksi" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="470" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-wWJylMkJj5rvpVHsZLc-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-wWJylMkJj5rvpVHsZLc-1" target="-wWJylMkJj5rvpVHsZLc-34" edge="1">
@@ -107,6 +107,42 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="670" y="430" as="sourcePoint" />
             <mxPoint x="550" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JXLJmN0SILcpSjLyxdJf-1" value="kelola data laporan" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="535" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JXLJmN0SILcpSjLyxdJf-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-wWJylMkJj5rvpVHsZLc-1" target="JXLJmN0SILcpSjLyxdJf-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="370" as="sourcePoint" />
+            <mxPoint x="470" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JXLJmN0SILcpSjLyxdJf-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-wWJylMkJj5rvpVHsZLc-36" target="JXLJmN0SILcpSjLyxdJf-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="370" as="sourcePoint" />
+            <mxPoint x="470" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JXLJmN0SILcpSjLyxdJf-5" value="Pemilik" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="430" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JXLJmN0SILcpSjLyxdJf-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JXLJmN0SILcpSjLyxdJf-5" target="-wWJylMkJj5rvpVHsZLc-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="470" as="sourcePoint" />
+            <mxPoint x="430" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JXLJmN0SILcpSjLyxdJf-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="-wWJylMkJj5rvpVHsZLc-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="460" as="sourcePoint" />
+            <mxPoint x="430" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JXLJmN0SILcpSjLyxdJf-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="JXLJmN0SILcpSjLyxdJf-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="460" as="sourcePoint" />
+            <mxPoint x="430" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
